@@ -68,3 +68,46 @@ console.log("Given Input: ", output.input);
 
 //To search what of index text we have given using(variable name.index)
 console.log("Given Index: ", output.index);
+
+
+
+
+/* 2. test()-If there regular expression is present it will return true and if 
+ doesn't match it will return false */
+/* To use this function first take a exec/any variable than dot(.)test inside
+bracket that sample string var and output in created variable
+(ex: exam = ex1.test(sample))(out(main variable),reg1(regExp Initialize),test(main func)
+,sample(string used for regExp)) */
+let out = reg1.test(sample);
+//For outcome
+console.log("Is Regular Expression Available: ", out);
+
+
+
+
+// 3. match()- it will return an array of results or null 
+//It have different and complex syntax than other regular expression syntax
+//If we define regExp in global we can get multiple output of array in match()
+let express = sample.match(reg1);
+//for outcome purpose
+console.log("Index of first match() is: ", express);
+
+
+
+
+/* 4.search()- it will return the index of first searched element or if it's
+not available then prints value (-1) */
+//It also have different and complex syntax than other regular expression syntax
+let express2 = sample.search(reg1);
+//for output
+console.log("Index of first Search() is: ", express2);
+
+
+
+
+// 5.replace()- it will replace string with all the match 
+/* if there are defined globally it will replace with all match and if it
+is not global than only first match will be replaced */
+let express3 = sample.replace(reg1, "Stake");
+//for output
+console.log("Replace of matched string is: ", express3);
