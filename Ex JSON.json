@@ -1,0 +1,17 @@
+{
+  "name": "JACK",
+
+  "scores": 95.3,
+
+  "scholar": false,
+
+  "scholarship": null,
+
+  "kitItem": ["Bat", "Protective gloves", "ball", "leg guard"],
+
+  "newObj": {
+    "name": "Nest Object",
+    "volume": "First",
+    "bookList": ["red-circle", "precise history", { "event": "lost" }]
+  }
+}
